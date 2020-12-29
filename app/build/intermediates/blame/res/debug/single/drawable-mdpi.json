@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\trans_selected.png",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\drawable-mdpi\\trans_selected.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\notes_selected.png",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\drawable-mdpi\\notes_selected.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\dict_selected.png",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\drawable-mdpi\\dict_selected.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi\\icon.png",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\drawable-mdpi\\icon.png"
+    }
+]

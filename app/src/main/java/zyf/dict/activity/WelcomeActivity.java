@@ -1,0 +1,66 @@
+package zyf.dict.activity;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.os.Handler;
+import android.os.Message;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+public class WelcomeActivity extends Activity{
+	  private Handler mHandler = new Handler();
+	  ImageView imageview,welview;
+	  TextView textview; 
+	  int alpha = 255;
+	  int b = 0;
+	  public void onCreate(Bundle savedInstancetate){
+		  super.onCreate(savedInstancetate);
+		  this.setContentView(R.layout.welcome);
+	    imageview = (ImageView) findViewById(R.id.ImageView01);
+	    imageview.setAlpha(alpha);
+	    welview = (ImageView) findViewById(R.id.ImageView02);
+	    welview.setAlpha(alpha);
+	    new Thread(new Runnable(){
+	      public void run(){
+	        initApp();//初始化程序
+	        while(b<2){
+	          try{  
+	        	  //延时2秒后，每50毫秒更新一次imageview
+	               if(b == 0){ 
+	            	   Thread.sleep(2000); b =1;
+	               }else{
+	            	   Thread.sleep(50);
+	               }
+	               updateApp();
+	           }catch(InterruptedException e){ 
+	        	   e.printStackTrace();
+	           }
+	       }
+	      }
+	    }).start();
+	    mHandler = new Handler(){
+	 	   @Override
+	 	   public void handleMessage(Message msg){
+	 	     super.handleMessage(msg);
+	 	     imageview.setAlpha(alpha);
+	 	     imageview.invalidate();
+	 	     welview.setAlpha(alpha);
+	 	     welview.invalidate();
+	 	   }
+	 	};
+	  }
+	  public void updateApp(){
+		  alpha -=5;              //每次减少alpha 5
+		  if(alpha <=0){
+		     b=2;
+		     Intent in = new Intent(this,LoginActivity.class);
+		     startActivity(in);          //启动下个界面
+		  }
+		  mHandler.sendMessage(mHandler.obtainMessage());
+	  }
+	  public void initApp(){
+	  }
+}
+	
+	

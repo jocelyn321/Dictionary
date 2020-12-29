@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\lishi.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\lishi.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notebook.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\notebook.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\word_list_item.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\word_list_item.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selectword.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\selectword.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\selected_item_show.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\selected_item_show.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\translate.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\translate.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\dict.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\dict.xml"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\layout\\welcome.xml",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\layout\\welcome.xml"
+    }
+]

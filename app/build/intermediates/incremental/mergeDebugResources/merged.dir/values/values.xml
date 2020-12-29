@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="blue">#2007F8</color>
+    <color name="darkgray">#938192</color>
+    <color name="gray">#999999</color>
+    <color name="lightblue">#8C93B5</color>
+    <color name="lightblue1">#8ED6F0</color>
+    <color name="lightgreen">#7cd12e</color>
+    <color name="lightpurple">#9BA0E3</color>
+    <color name="red">#FF0000</color>
+    <color name="white">#FFFFFF</color>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="shadow_width">5dp</dimen>
+    <dimen name="slidingmenu_offset">60dp</dimen>
+    <string name="_8px">8px</string>
+    <string name="allwords">所有生词</string>
+    <string name="app_name">Dictionary</string>
+    <string name="clear">清空</string>
+    <string name="hello">Hello World, MainActivity!</string>
+    <string name="tran">翻译</string>
+</resources>

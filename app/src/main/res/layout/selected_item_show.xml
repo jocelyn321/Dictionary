@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/select_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/pink"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:id="@+id/LinearLayout01" 
+        android:layout_marginTop="10px"
+        android:layout_width="fill_parent" 
+        android:layout_height="wrap_content">
+        <TextView android:id="@+id/show_word_tv" 
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="32dip"
+            android:layout_marginTop="26px"
+            android:layout_centerHorizontal="true"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content">
+        </TextView>
+        <ImageView
+            android:id="@+id/show_detail_btn" 
+            android:src="@drawable/show_detail"
+            android:layout_below="@id/show_word_tv"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="73px"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content">
+        </ImageView>
+        <TextView android:id="@+id/show"
+            android:visibility="invisible"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show_word_tv"
+            android:layout_marginTop="73px"
+            android:layout_marginLeft="10px"
+            android:layout_marginRight="10px"/>
+        <TextView android:id="@+id/show_mean_tv" 
+            android:textSize="15dip"
+            android:textColor="@color/white"
+            android:drawableLeft="@drawable/point"
+            android:visibility="invisible"
+            android:layout_below="@id/show"
+            android:layout_marginTop="15px"
+            android:layout_marginLeft="10px"
+            android:layout_width="wrap_content" 
+            android:layout_height="wrap_content"/>
+
+        <ImageView
+            android:id="@+id/pre_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show_detail_btn"
+            android:layout_marginLeft="200px"
+            android:layout_marginTop="3dp"
+            android:src="@drawable/prev"></ImageView>
+
+        <ImageView
+            android:id="@+id/next_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/show_detail_btn"
+            android:layout_marginLeft="128dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="5px"
+            android:layout_toRightOf="@id/pre_btn"
+            android:src="@drawable/next"></ImageView>
+    </RelativeLayout>
+</LinearLayout>

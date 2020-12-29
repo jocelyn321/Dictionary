@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\welcome.png",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\drawable-hdpi\\welcome.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\icon.png",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\drawable-hdpi\\icon.png"
+    },
+    {
+        "merged": "F:\\AndroidStudioProjects\\Dictionary\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi\\wel.png",
+        "source": "F:\\AndroidStudioProjects\\Dictionary\\app\\src\\main\\res\\drawable-hdpi\\wel.png"
+    }
+]

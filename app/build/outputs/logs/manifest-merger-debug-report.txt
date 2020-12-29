@@ -1,0 +1,90 @@
+-- Merging decision tree log ---
+manifest
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:1-35:12
+	package
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:3:5-32
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:7:15-40
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+		INJECTED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml
+application
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:9:5-30:19
+	android:label
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:12:9-41
+	android:icon
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:10:9-42
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:11:9-38
+activity#zyf.dict.activity.WelcomeActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:13:9-20:20
+	android:label
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:14:13-45
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:15:13-44
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:16:13-19:29
+action#android.intent.action.MAIN
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:17:17-69
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:17:25-66
+category#android.intent.category.LAUNCHER
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:18:17-77
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:18:27-74
+activity#zyf.dict.activity.LoginActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:21:9-60
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:21:19-48
+activity#zyf.dict.activity.RegisterActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:22:9-63
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:22:19-51
+activity#zyf.dict.activity.MainActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:23:9-59
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:23:19-47
+activity#zyf.dict.activity.NotebookActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:24:9-63
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:24:19-51
+activity#zyf.dict.activity.ShowItemwordActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:25:9-67
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:25:19-55
+activity#zyf.dict.activity.TranslateActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:26:9-64
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:26:19-52
+activity#zyf.dict.activity.SelectActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:27:9-61
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:27:19-49
+activity#zyf.dict.activity.LishiActivity
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:28:9-60
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:28:19-48
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:32:5-95
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:32:22-76
+uses-permission#android.permission.INTERNET
+ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:34:2-80
+	android:name
+		ADDED from F:\AndroidStudioProjects\Dictionary\app\src\main\AndroidManifest.xml:34:19-61
